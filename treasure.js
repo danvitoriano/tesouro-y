@@ -10,8 +10,12 @@ let treasure_position = stringArr[2][3]
 let andre_moves = []
 let moves = []
 let direction = "right"
+let hunters = []
 
-function Movement(hunter){
+function Movement(obj){
+
+    positions.andre
+
     if(hunter > positions.tesouro){
         direction = "left"
     }
@@ -26,4 +30,4 @@ function Movement(hunter){
 
 // console.log(positions.kana > positions.tesouro)
 // console.log(positions.kana[0] + 1)
-console.log(Movement(positions.kana))
+console.log(Movement(positions))
